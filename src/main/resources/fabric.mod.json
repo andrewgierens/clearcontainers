@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "clearcontainers",
+  "version": "${version}",
+  "name": "Clear Containers",
+  "description": "Allows you to clear any blocks that store items. Furnace, chest, hopper etc",
+  "authors": [
+    "agierens"
+  ],
+  "contact": {
+    "website": "agierens.com",
+    "repo": "https://github.com/andrewgierens/clearcontainers"
+  },
+  "license": "MIT",
+  "icon": "assets/clearcontainers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.agierens.clearcontainers.ClearContainers"
+    ]
+  },
+  "mixins": [
+    "clearcontainers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
