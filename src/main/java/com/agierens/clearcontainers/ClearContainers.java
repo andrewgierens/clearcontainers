@@ -42,7 +42,7 @@ public class ClearContainers implements ModInitializer {
         );
 
         CommandRegistrationCallback.EVENT.register((dispatcher, dedicated, environment) -> {
-            dispatcher.register(CommandManager.literal("clearcontainers").executes(context -> {
+            dispatcher.register(CommandManager.literal("/clearcontainers").executes(context -> {
                 var serverPlayer = context.getSource().getPlayerOrThrow();
                 var serverWorld = serverPlayer.world;
                 if (serverWorld == null) return 0;
