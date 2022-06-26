@@ -1,12 +1,12 @@
 # clearcontainers
 
 ## Mod description
-This mod gives you the ability to clear containers that are within your current WorldEdit region selection
+This mod is an extention for worldedit, that allows you to clear any containers in a region selection
 
 ## Notes
-This mod requires worldedit to be installed
+This mod requires worldedit to function
 
 ## Commands
-- [x] `/clearcontainers` - Clears all containers in the current region selection
+- [x] `//clearcontainers` - Clears all containers in the current region selection
 
-- [ ] `/clearcontainer hopper` - Clears a certain type of container in the currnet region selection
+- [ ] `//clearcontainer hopper` - Clears a certain type of container in the currnet region selection
