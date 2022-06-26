@@ -36,6 +36,7 @@ public class ClearContainers implements ModInitializer {
                 new GenericClearableBlock(BlockEntityType.HOPPER),
                 new GenericClearableBlock(BlockEntityType.DROPPER),
                 new GenericClearableBlock(BlockEntityType.DISPENSER),
+                new GenericClearableBlock(BlockEntityType.SHULKER_BOX),
                 new Furnace()
         );
 
