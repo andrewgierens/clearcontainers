@@ -1,4 +1,4 @@
-package com.agierens.clearcontainers;
+package com.agierens;
 
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.HopperBlockEntity;

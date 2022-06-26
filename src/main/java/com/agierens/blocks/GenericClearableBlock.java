@@ -1,6 +1,6 @@
-package com.agierens.clearcontainers.blocks;
+package com.agierens.blocks;
 
-import com.agierens.clearcontainers.InventoryHelper;
+import com.agierens.InventoryHelper;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.inventory.Inventory;

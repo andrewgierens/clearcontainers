@@ -16,7 +16,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.agierens.clearcontainers.ClearContainers"
+      "com.agierens.ClearContainers"
     ]
   },
   "mixins": [

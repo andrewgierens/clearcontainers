@@ -1,8 +1,7 @@
-package com.agierens.clearcontainers.entities;
+package com.agierens.entities;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.vehicle.VehicleInventory;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.world.World;
 
 public interface IClearableEntity {

@@ -1,10 +1,9 @@
-package com.agierens.clearcontainers.blocks;
+package com.agierens.blocks;
 
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public interface IClearableBlock {

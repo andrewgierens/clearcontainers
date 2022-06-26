@@ -1,11 +1,10 @@
-package com.agierens.clearcontainers.blocks;
+package com.agierens.blocks;
 
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.*;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class Furnace implements IClearableBlock {

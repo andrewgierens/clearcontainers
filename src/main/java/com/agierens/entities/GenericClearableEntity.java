@@ -1,12 +1,8 @@
-package com.agierens.clearcontainers.entities;
+package com.agierens.entities;
 
-import com.agierens.clearcontainers.InventoryHelper;
-import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.entity.Entity;
+import com.agierens.InventoryHelper;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.vehicle.VehicleInventory;
-import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public record GenericClearableEntity(EntityType<? extends VehicleInventory> blockType) implements IClearableEntity {
