@@ -1,7 +1,7 @@
 # clearcontainers
 
 ## Mod description
-This mod is an extention for worldedit, that allows you to clear any containers in a region selection
+This mod is a FABRIC extention for worldedit, that allows you to clear any containers in a region selection
 
 ## Notes
 This mod requires worldedit to function
